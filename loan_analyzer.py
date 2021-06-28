@@ -86,7 +86,9 @@ print(f"the laon price is $", {loan_price})
 #   You'll want to use the **monthly** version of the present value formula.
 #   HINT: Present Value = Future Value / (1 + Discount_Rate/12) ** remaining_months
 
+present_value = future_value / (1 + .20/12) ** remaining_months
 
+print(f"The present value is $", {round(present_value,2)})
 
 # If Present Value represents what the loan is really worth, does it make sense to buy the loan at its cost?
 # @TODO: Write a conditional statement (an if-else statement) to decide if the present value represents the loan's fair value.
