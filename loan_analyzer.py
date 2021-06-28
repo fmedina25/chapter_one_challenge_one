@@ -96,6 +96,10 @@ print(f"The present value is $", {round(present_value,2)})
 #    Else, the present value of the loan is less than the loan cost, then print a message that says that the loan is too expensive and not worth the price.
 # YOUR CODE HERE!
 
+if present_value >= loan_price:
+    print("The loan is worth at least the cost to buy it")
+else:
+    print("Loan is too expensive and not worth the price")
 
 """Part 3: Perform Financial Calculations.
 
