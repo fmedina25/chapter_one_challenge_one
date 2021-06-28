@@ -28,8 +28,8 @@ print(f"Total number of loans is:", {total_loans})
 # YOUR CODE HERE!
 
 
-sum_of_all_loans = sum(loan_costs)
-print(f"Total of all loans is:", {loan_costs})
+sum_of_all_loans = (sum(loan_costs))
+print(f"Total of all loans is:", {sum_of_all_loans})
 
 # What is the average loan amount from the list?
 # @TODO: Using the sum of all loans and the total number of loans, calculate the average loan price.
@@ -224,4 +224,3 @@ with open(csvpath, 'w', newline='') as csvfile:
     csvwriter.writerow(header)
     for row in inexpensive_loans:
         csvwriter.writerow(row.values())
-        
